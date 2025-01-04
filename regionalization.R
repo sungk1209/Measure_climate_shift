@@ -10,6 +10,7 @@ library(ggmap)
 require(maps)
 require(mapdata)
 require(maptools)
+require(terra)
 
 #region_bnd <- readOGR(dsn = "../HUC8_CONUS/HUC8_US.shp")
 #plot(region_bnd, col="cyan1", border="black", lwd= 3)
